@@ -8,7 +8,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import net.serenitybdd.screenplay.annotations.CastMember;
 
 @ExtendWith(SerenityJUnit5Extension.class)
-class WhenSearchingForTerms {
+public class WhenSearchingForTerms {
 
     @CastMember(name = "Wendy")
     Actor wendy;
